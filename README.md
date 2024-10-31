@@ -1,1 +1,1 @@
-# rsschool-cv
+[Ссылка на резюме](https://github.com/Kinderpipka/rsschool-cv/blob/gh-pages/cv.md)
