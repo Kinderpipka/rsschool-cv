@@ -79,7 +79,7 @@ You have to do God's job. The creation method must return an array of length 2 c
 ## Education
 - **Heat and gas supply and ventilation** - Tomsk State University of Architecture and Civil Engineering, Tomsk 2023
 
-![Avatar](faMPjgE9pOw.jpg)
+![Avatar](/rsschool-cv/images/faMPjgE9pOw.jpg)
 
 ## English language
 - Good working knowledge of reading and writing.
