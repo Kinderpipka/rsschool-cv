@@ -6,7 +6,7 @@
 - **Email:** csemyon@inbox.ru
 - **Phone:** +7 (902) 142-50-**
 - **Telegram:** https://t.me/Hvkpak
-- **Discord** Kinderpipka
+- **Discord:** Kinderpipka
 
 
 
@@ -36,6 +36,8 @@ new things and share knowledge.
 According to the creation myths of the Abrahamic religions, Adam and Eve were the first Humans to wander the Earth.
 
 You have to do God's job. The creation method must return an array of length 2 containing objects (representing Adam and Eve). The first object in the array should be an instance of the class Man. The second should be an instance of the class Woman. Both objects have to be subclasses of Human. Your job is to implement the Human, Man and Woman classes.
+
+```
 
  public class God
  {
@@ -67,7 +69,7 @@ You have to do God's job. The creation method must return an array of length 2 c
    }
   }
 
-
+```
 
 ## Experience
 - **Ylab:** Internship
@@ -77,7 +79,7 @@ You have to do God's job. The creation method must return an array of length 2 c
 ## Education
 - **Heat and gas supply and ventilation** - Tomsk State University of Architecture and Civil Engineering, Tomsk 2023
 
-![Avatar](D:/twich/faMPjgE9pOw.jpg)
+![Avatar](faMPjgE9pOw.jpg)
 
 ## English language
 - Good working knowledge of reading and writing.
