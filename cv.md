@@ -3,7 +3,7 @@
 
 
 ## Contact information
-- **Email:** sfigali@inbox.ru
+- **Email:** csemyon@inbox.ru
 - **Phone:** +7 (902) 142-50-**
 - **Telegram:** https://t.me/Hvkpak
 - **Discord:** Kinderpipka
