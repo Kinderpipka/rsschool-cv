@@ -1,0 +1,81 @@
+body {
+  min-width: 1440px;
+  max-height: 3442px;
+  margin: 0;
+}
+
+header {
+  max-height: 64px;
+  min-width: 1440px;
+}
+
+.container {
+  display: flex;
+  width: 1276px;
+  max-height: 64px;
+  margin-left: 82px;
+  gap: 15px;
+}
+.logo {
+  width: 141px;
+  height: 40;
+  display: flex;
+  padding: 8px 20px;
+  margin: 12px 0 12px 0;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.snowflake {
+  width: 24px;
+  height: 24px;
+}
+.icon_text {
+  color: #181c29;
+  font-family: "AG Action", sans-serif;
+  font-size: small;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+.container_button {
+  height: 40px;
+  width: 1123px;
+  margin-top: 12px;
+  display: flex;
+
+  justify-content: flex-end;
+}
+.button {
+  height: 40px;
+  font-size: 0;
+  max-width: 376px;
+}
+button {
+  min-width: 78px;
+  height: 40px;
+  padding: 12px 20px;
+  margin: 0;
+  border: none;
+  color: #181c29;
+  font-family: "AG Action", sans-serif;
+  font-size: small;
+  background-color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.hero_section {
+  width: 1440px;
+  height: 524px;
+  background-color: #ff4646;
+  border-top-left-radius: 20px;
+
+  border-top-right-radius: 20px;
+  background-image: url("/christmas-shop/img-compressed/bg-snow.png"),
+    url("/christmas-shop/img-compressed/bg-ball.png");
+
+  background-size: cover; /* или contain, в зависимости от желаемого эффекта */
+  background-repeat: no-repeat;
+  background-position: center;
+}
