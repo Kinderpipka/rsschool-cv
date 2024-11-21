@@ -47,7 +47,7 @@ header {
 }
 .button {
   height: 40px;
-  font-size: 0;
+
   max-width: 376px;
 }
 button {
@@ -63,9 +63,15 @@ button {
 }
 button:hover {
   cursor: pointer;
+  color: #ff4646;
+  background-color: rgb(247, 217, 232);
+  border-radius: 12px;
 }
 
 .hero_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1440px;
   height: 524px;
   background-color: #ff4646;
@@ -78,4 +84,224 @@ button:hover {
   background-size: cover; /* или contain, в зависимости от желаемого эффекта */
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.hero_container {
+  width: 426px;
+
+  height: 404px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home_caption1 {
+  font-family: "Allura", cursive;
+  font-size: 28px;
+  font-weight: 426px;
+  line-height: 100%;
+  letter-spacing: 5%;
+  color: white;
+  margin-top: 60px;
+}
+.home_caption2 {
+  font-family: "Allura", cursive;
+  font-size: 28px;
+  font-weight: 426px;
+  line-height: 100%;
+  letter-spacing: 5%;
+  color: white;
+  margin-top: -6px;
+}
+
+.home_h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: white;
+  font-weight: 600px;
+  line-height: 150%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: -20px;
+  text-align: center;
+}
+.button_hero {
+  width: 235px;
+  height: 56px;
+  padding: 20px 32px;
+  border-radius: 20px;
+  background-color: #181c29;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.button_hero:hover {
+  background-color: white;
+  color: black;
+}
+.about_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 648px;
+  background-image: url("/christmas-shop/img-compressed/bg-snow.png");
+  background-color: #ff4646;
+}
+.about_container {
+  width: 1276px;
+  height: 528px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+}
+.about_img {
+  border-radius: 20px;
+  background-image: url("/christmas-shop/img-compressed/santa.png");
+  width: 638px;
+}
+.about_about {
+  width: 638px;
+}
+.about_text {
+  margin-top: 100px;
+  margin-left: 60px;
+  width: 426px;
+  height: 328px;
+}
+.about_caption {
+  font-family: "Allura";
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 60px;
+  letter-spacing: 2px;
+  color: #ff4646;
+
+  margin-bottom: 20px;
+}
+.about_h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 150%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.about_p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 148%;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.slider_section {
+  background-color: #ff4646;
+  background-image: url("/christmas-shop/img-compressed/bg-snow.png");
+  width: 1440px;
+  background-size: contain;
+  background-position: center bottom;
+  height: 488px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider_container {
+  width: 1276px;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 20px;
+}
+
+.slider_text {
+  width: 426px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  align-items: center;
+}
+.slider_caption {
+  color: white;
+  font-family: "Allura";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.slider_h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 3px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.slider_row {
+  width: 100%;
+
+  height: 200px;
+}
+
+.slider_slider {
+  height: 100%;
+  width: 1993px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.row_text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+.slider_img1 {
+  width: 200px;
+  height: 200px;
+  background-image: url("/christmas-shop/img-compressed/snowman.png");
+  background-size: contain;
+  border-radius: 20px;
+}
+.slider_img2 {
+  width: 200px;
+  height: 200px;
+  background-image: url("/christmas-shop/img-compressed/christmas-trees.png");
+  background-size: contain;
+  border-radius: 20px;
+}
+.slider_img3 {
+  width: 200px;
+  height: 200px;
+  background-image: url("/christmas-shop/img-compressed/christmas-tree-ball.png");
+  background-size: contain;
+  border-radius: 20px;
+}
+.slider_img4 {
+  width: 200px;
+  height: 200px;
+  background-image: url("/christmas-shop/img-compressed/fairytale-house.png");
+  background-size: contain;
+  border-radius: 20px;
 }
