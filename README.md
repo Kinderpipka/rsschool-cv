@@ -1,1 +1,1 @@
-[add link to CV](https://kinderpipka.github.io/rsschool-cv/cv)
+[add link to CV](https://Kinderpipka.github.io/rsschool-cv/)
