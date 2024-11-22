@@ -50,7 +50,7 @@ header {
 
   max-width: 376px;
 }
-button {
+.button_heder {
   min-width: 78px;
   height: 40px;
   padding: 12px 20px;
@@ -61,7 +61,7 @@ button {
   font-size: small;
   background-color: white;
 }
-button:hover {
+.button_heder:hover {
   cursor: pointer;
   color: #ff4646;
   background-color: rgb(247, 217, 232);
@@ -81,7 +81,7 @@ button:hover {
   background-image: url("/christmas-shop/img-compressed/bg-snow.png"),
     url("/christmas-shop/img-compressed/bg-ball.png");
 
-  background-size: cover; /* или contain, в зависимости от желаемого эффекта */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -139,12 +139,15 @@ button:hover {
   letter-spacing: 5%;
   text-transform: uppercase;
   margin-top: -20px;
+  border: none;
   margin-bottom: 20px;
 }
 
 .button_hero:hover {
   background-color: white;
   color: black;
+  cursor: pointer;
+  border: none;
 }
 .about_section {
   display: flex;
@@ -304,4 +307,262 @@ button:hover {
   background-image: url("/christmas-shop/img-compressed/fairytale-house.png");
   background-size: contain;
   border-radius: 20px;
+}
+.slider_button {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 56px;
+  justify-content: flex-end;
+}
+.slider_button1 {
+  border-radius: 20px;
+  width: 56px;
+  border-color: rgba(255, 255, 255, 0.4);
+  height: 56px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  border: 2px solid;
+}
+.slider_button1:hover {
+  cursor: pointer;
+}
+
+.slider_button2 {
+  border-radius: 20px;
+  width: 56px;
+  border: 2px solid;
+  border-color: white;
+  height: 56px;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+}
+
+.slider_button2:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #ff4646;
+}
+.gifts_section {
+  width: 1440px;
+  background-color: #ff4646;
+  background-image: url("/christmas-shop/img-compressed/bg-snow.png");
+  height: 554px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gifts_container {
+  width: 1276px;
+  height: 434px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.gifts_text {
+  width: 426px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.gifts_caption {
+  color: white;
+  font-family: "Allura";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.gifts_h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.gifts_gifts {
+  width: 100%;
+  height: 342px;
+  display: flex;
+  gap: 12px;
+}
+.gifts1 {
+  width: 310px;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #ecf3f8;
+  cursor: pointer;
+}
+
+.gifts_img1 {
+  width: 100%;
+  height: 230px;
+}
+.gifts_description1 {
+  width: 100%;
+  height: 112px;
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px 20px;
+}
+.gifts1:hover .gifts_h3 {
+  color: #ff4646;
+}
+.gifts_h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+}
+.gifts_h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 152%;
+  letter-spacing: 8%;
+  margin: 0 0 0 0;
+  text-transform: uppercase;
+}
+.cta_section {
+  background-color: #ff4646;
+  width: 1440px;
+  height: 668px;
+  background-image: url("/christmas-shop/img-compressed/bg-snow.png"),
+    url("/christmas-shop/img-compressed/bg-forest.png");
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta_container {
+  width: 1276px;
+  height: 548px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_container {
+  width: 426px;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.cta_h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 152%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+.cta_button {
+  text-align: center;
+  width: 235px;
+  height: 56px;
+  border-radius: 20px;
+  background-color: #181c29;
+  color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.cta_button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #181c29;
+}
+
+.cta_container_time {
+  width: 100%;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.cta_caption {
+  color: white;
+  font-family: "Allura";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.cta_time {
+  width: 344px;
+  height: 72px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  padding: 8px 12px 12px 12px;
+}
+.cell {
+  width: 80px;
+  height: 52px;
+  margin: 8px 12px;
+  
+}
+
+
+.number{
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 152%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+.time_text{
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+.separator{
+  width: 2px; /* Ширина разделителя */
+  height: 20px; /* Высота разделителя */
+  background-color: rgba(255, 255, 255, 0.4); /* Цвет разделителя */
+  margin: 24px 0 0 0 ;
+  
+}
+
+.footer_section {
+  width: 1440px;
+  height: 496px;
 }
